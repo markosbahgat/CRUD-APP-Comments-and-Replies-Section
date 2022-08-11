@@ -1,0 +1,19 @@
+.all_container {
+	width: 95%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	float: right;
+}
+
+@media screen and (max-width: 800px) {
+	.all_container {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		float: none;
+	}
+}
